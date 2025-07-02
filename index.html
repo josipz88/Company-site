@@ -1,157 +1,99 @@
 <!DOCTYPE html>
-    <html>
+<html lang="en">
     <head>
-        <title>Company webiste</title>
-    </head>
+        <title>
+            Portfolio Site
+        </title>
+        <style>
+            body {
+                background-color: lightblue;
+                color: #ffffff;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
 
+            a {
+                color: #ffffff;
+            }
+
+            a:hover{
+                color: lightblue;
+            }
+
+            div {
+                background-color: #102a43;
+                padding: 16px;
+                margin-top: 25px;
+                border-radius: 25px;
+            }
+
+            main {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 768px;
+            }
+
+            img {
+                aspect-ratio: 16 / 9;
+                width: 50%;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+
+            img:hover {
+                aspect-ratio: 16 / 9;
+                width: 60%;
+                object-fit: cover;
+                border-radius: 5px;
+                transition: 0.5s ease-in-out;
+            }
+
+            ul{
+                list-style-type: none;
+                padding: 0;
+            }
+
+            h1{
+                text-decoration: underline;
+            }
+
+            .project{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
     <body>
-        <header>
-            <img src="logo.svg">
-            <nav>
+        <main>
+            <div>
+                <h1>About me</h1>
+                <p>My name is <strong>Josip</strong> and this is my <strong>portfolio</strong>.</p>
+                <p>My skills include:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Contact information</h1>
+                <p>Email: <a href="mailto:josip@gmail.com">josip@gmail.com</a></p>
+                <p>Phone: <a href="tel:+38599999999">+385 99 999 9999</a></p>
+                <a href="https://hr.linkedin.com/">LinkedIn</a>
+            </div>
+            <div>
+                <h1>Projects</h1>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <div class="project"><img src="media/company.png" alt="screenshot company"></div>
+                        <div class="project"><a href="https://github.com/josipz88/algebra-search">Company website</a></div>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="products.html">Products</a>
+                        <div class="project"><img src="media/search.png" alt="screenshot search"></div>
+                        <div class="project"><a href="https://github.com/josipz88/Company-site">Search bar</a></div>
                     </li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>
-                Company - Better Together
-            </h1>
-            <article>
-                <h2>Boring can be fun</h2>
-                <section>
-                    <p>
-                    Tech virtual drone online browser platform through in a system. But stream software offline. Professor install angel
-                    sector anywhere create at components smart. Document fab developers encryption smartphone powered, bespoke
-                    blockstack edit atoms. Companies a storage adopters. Hardware company planet, torrent ut developers stream,
-                    engineering keyphrase end. Document reality edit, install strategy startups hardware stream, analytics e-commerce
-                    smart. Privacy news data policies analytics documents.
-                    </p>
-                </section>
-                <section>
-                    <p>
-                    Now digital designs id anywhere atoms. Now strategy startups documents designs. Venture crypto adopters niche. Video
-                    algorithm system ultra-private policies engineering. Users takedowns. In apps torrent, decentralized bespoke IPO
-                    funding, change word company. e-commerce components goods support in file system edit steem on videos engineering
-                    algorithm hundreds; Pocketable strategy startups e-commerce system. Document 1,000 how torrent, non security mi sell
-                    crypto. Despite clever designers how, word steem ability analytics.
-                    </p>
-                </section>
-            </article>
-            <article>
-                <h2>How we can help</h2>
-                <section>
-                    <img src="product-1.jpg" width="300px">
-                    <p>
-                    Tech virtual drone online browser platform through in a system. But stream software offline. Professor install angel
-                    sector anywhere create at components smart. Document fab developers encryption smartphone powered, bespoke
-                    blockstack edit atoms. Companies a storage adopters. Hardware company planet, torrent ut developers stream,
-                    engineering keyphrase end. Document reality edit, install strategy startups hardware stream, analytics e-commerce
-                    smart. Privacy news data policies analytics documents.
-                    </p>
-                </section>
-                <section>
-                    <ul>
-                        <li>
-                           Now digital designs id anywhere atoms
-                        </li>
-                        <li>
-                            Venture crypto adopters niche
-                        </li>
-                        <li>
-                            Video algorithm system ultra-private policies engineering
-                        </li>
-                        <li>
-                            In apps torrent, decentralized bespoke IPO funding, change word company
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <p>
-                        Read more about our <a href="products.html" target="_blank">products.</a>
-                    </p>
-                </section>
-            </article>
-            <article>
-                <h2>
-                    What we do and why we do it
-                </h2>
-                <section>
-                    <figure>
-                        <img src="billy-corgan.jpg"></img>
-                    </figure>  
-                    <figcaption>
-                        "Ipsa netus consequatur blanditiis nostrum pretium phasellus sollicitudin, quae ad aut taciti, inventore purus,
-                        natus hymenaeos totam labore dictumst harum explicabo, pede sint? Molestiae! Numquam aut. Mus mollit distinctio?
-                        Imperdiet, fugit. Similique conubia torquent. Consequatur parturient, consequuntur omnis quia minima quam hymenaeos,
-                        taciti distinctio, expedita quos vestibulum exercitation." - Billy Corgan, CEO
-                    </figcaption>
-                </section>
-                <section>
-                    <figure>
-                        <img src="bob-mould.jpg">
-                    </figure>
-                    <figcaption>
-                        <ol>
-                            <li>
-                                Aenean imperdiet nostrud minus asperiores at commodo laboriosam volutpat consectetuer, dolorum habitant placeat
-                                habitasse, aspernatur veniam reiciendis in!
-                            </li>
-                            <li>
-                                Proin excepturi, metus adipiscing exercitationem mauris congue ipsum, labore fringilla nobis hac, iste illo,
-                                ipsam temporibus!
-                            </li>
-                            <li>
-                                Laboris, sollicitudin? Nam euismod? Similique ante quos aut lorem erat tortor vitae commodo congue.
-                            </li>
-                        </ol>
-                    </figcaption>
-                </section>
-                <section>
-                    Distinctio diam curabitur sociosqu class senectus hic, quisque eu ab? Quis ratione sapiente adipisci ligula mauris
-                    erat, et hic debitis culpa ab vel quia, dictumst iusto eros. Proident facere blandit pariatur habitant per fuga
-                    quisquam! Ornare! Vitae doloremque facilis ullam penatibus ac, diam molestias molestias velit adipiscing eget.
-                </section>
-                <section>
-                    <p>
-                        Read more <a href="about.html">about us.</a>
-                    </p>
-                </section>
-            </article>
-            <form>
-                <p>Get in touch!</p>
-                <div>
-                    <label>Name</label>
-                    <input type="text" name="name" required>
-                </div>
-                <div>
-                    <label>Email</label>
-                    <input type="email" name="email" required>
-                </div>
-                <div>
-                    <label>Message</label>
-                    <textarea rows="1" cols="20" name="message" required></textarea>
-                </div>
-                <div>
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
+            </div>
         </main>
-        <footer>
-            <small>
-                © Company 2019-2010
-            </small>
-            <small>
-                <a href="mailto:info@company.example.com">Email</a>
-            </small>
-        </footer>
     </body>
 </html>
